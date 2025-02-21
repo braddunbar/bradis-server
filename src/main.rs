@@ -4,7 +4,7 @@ use bradis::{Addr, Server};
 use clap::Parser;
 use error::Error;
 use tokio::net::{TcpListener, ToSocketAddrs};
-use tracing::{info, Level};
+use tracing::{Level, info};
 use tracing_subscriber::FmtSubscriber;
 
 #[derive(Parser)]
